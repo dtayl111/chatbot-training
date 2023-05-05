@@ -1,0 +1,62 @@
+[
+  {
+    "name": "itemName",
+    "pattern": "asus laptop"
+  },
+  {
+    "name": "itemName",
+    "pattern": "computer"
+  },
+  {
+    "name": "itemName",
+    "pattern": "iPhone 14"
+  },
+  {
+    "name": "itemName",
+    "pattern": "laptop"
+  },
+  {
+    "name": "itemName",
+    "pattern": "phone"
+  },
+  {
+    "name": "itemName",
+    "pattern": "tv"
+  },
+  {
+    "name": "name",
+    "pattern": "Anna"
+  },
+  {
+    "name": "name",
+    "pattern": "Crystal"
+  },
+  {
+    "name": "name",
+    "pattern": "David"
+  },
+  {
+    "name": "name",
+    "pattern": "Jane Doe"
+  },
+  {
+    "name": "name",
+    "pattern": "Joe"
+  },
+  {
+    "name": "name",
+    "pattern": "John Doe"
+  },
+  {
+    "name": "name",
+    "pattern": "Mark Williams"
+  },
+  {
+    "name": "name",
+    "pattern": "Michael Jackson"
+  },
+  {
+    "name": "name",
+    "pattern": "Sarah"
+  }
+]

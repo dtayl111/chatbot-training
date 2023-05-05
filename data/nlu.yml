@@ -1,0 +1,123 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: check_phones
+  examples: |
+    - What type of phones do you sell?
+    - Name me some of phones you sell.
+  
+- intent: shipping_time
+  examples: |
+    - How long does shipment take?
+    - When will my item arrive?
+    - Is my item shipped?
+    - I didnt recieve my item.
+    - I didn't get my shipment.
+
+- regex: name
+  examples: |
+    - [A-Za-z]+
+
+- intent: provide_name
+  examples: | 
+    - my name is [Joe](firstName)
+    - my name is [Bridgette](firstName)
+    - my name is [Mark](firstName)
+    - my name is [Adam](firstName)
+    - i am [John](firstName)
+    - i am [David Scott](firstName)
+    - i am [Matthew](firstName)
+    - call me [Anna Bell](firstName)
+    - call me [Chris](firstName)
+    - you can call me [Sarah](firstName)
+    - you can call me [Jane](firstName)
+    - you can call me [John](firstName)

@@ -1,0 +1,6 @@
+{
+  "itemname": "itemName",
+  "my name is (\\\\s+)": "My name is (\\\\S+)",
+  "(\\\\s+) is my name": "(\\\\S+) is my name",
+  "i go by the name of (\\\\s+)": "I go by the name of (\\\\S+)"
+}

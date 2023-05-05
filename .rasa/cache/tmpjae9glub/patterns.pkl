@@ -1,0 +1,6 @@
+[
+  {
+    "name": "phone",
+    "pattern": "(\\bSamsung\\ Galaxy\\b|\\biPhone\\b|\\bLG\\b|\\bMotorola\\b|\\bHTC\\b)"
+  }
+]

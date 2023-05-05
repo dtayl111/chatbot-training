@@ -1,0 +1,69 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - check_phones
+  - provide_name
+  - provide_full_name
+  - shipping_time
+
+entities:
+  - firstName
+  - lastName
+
+slots:
+  firstName:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: firstName
+  lastName:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: lastName
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Good to hear that! What is your name?"
+
+  utter_ask_name:
+  - text: "What is your name?"
+
+  utter_nice_to_meet:
+  - text: "Cool! Nice to meet you {firstName}!"
+
+  utter_cool_name:
+  - text: "{firstName} {lastName} is a cool name!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_shipment_time:
+  - text: "The handling time for shipment is 3 business days and shipment can't take up to 5 business days to reach."
+
+  utter_phones_types:
+  - text: "Phones we sell are: samsung galaxy, iphone, htc, google pixel, and LG."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

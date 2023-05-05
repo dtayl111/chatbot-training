@@ -1,0 +1,10 @@
+[
+  {
+    "name": "name",
+    "pattern": "^[A-Z][a-z]+$"
+  },
+  {
+    "name": "itemName",
+    "pattern": "(\\bSamsung\\ Galaxy\\b|\\biPad\\b|\\blapTop\\b|\\biPhone\\b|\\bLG\\b|\\bMotorola\\b|\\bHTC\\b)"
+  }
+]

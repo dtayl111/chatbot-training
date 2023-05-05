@@ -1,0 +1,10 @@
+[
+  {
+    "name": "item",
+    "pattern": "^[A-Za-z]+([\\s\\-][A-Za-z]+)*$"
+  },
+  {
+    "name": "person",
+    "pattern": "^[A-Za-z]+([\\s\\-][A-Za-z]+)*$"
+  }
+]

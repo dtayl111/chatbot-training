@@ -1,0 +1,10 @@
+[
+  {
+    "name": "itemName",
+    "pattern": "^\\S+$"
+  },
+  {
+    "name": "name",
+    "pattern": "^\\S+$"
+  }
+]

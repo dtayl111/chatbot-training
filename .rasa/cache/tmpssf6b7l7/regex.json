@@ -1,0 +1,34 @@
+[
+  {
+    "name": "itemName",
+    "pattern": ".*galaxy.*"
+  },
+  {
+    "name": "itemName",
+    "pattern": ".*laptop.*"
+  },
+  {
+    "name": "itemName",
+    "pattern": ".*phone.*"
+  },
+  {
+    "name": "itemName",
+    "pattern": ".*samsung.*"
+  },
+  {
+    "name": "itemName",
+    "pattern": ".*tablet.*"
+  },
+  {
+    "name": "itemName",
+    "pattern": ".*watch.*"
+  },
+  {
+    "name": "name",
+    "pattern": "[A-Za-z]+"
+  },
+  {
+    "name": "name",
+    "pattern": "[A-Za-z]+\\s[A-Za-z]+"
+  }
+]

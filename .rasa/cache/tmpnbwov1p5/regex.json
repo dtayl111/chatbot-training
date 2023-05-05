@@ -1,0 +1,10 @@
+[
+  {
+    "name": "itemName",
+    "pattern": "[A-Za-z]+$"
+  },
+  {
+    "name": "name",
+    "pattern": "[A-Za-z]+$"
+  }
+]

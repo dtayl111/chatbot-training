@@ -1,0 +1,47 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: provide_name
+  - action: utter_nice_to_meet
+  
+- story: provide name
+  steps:
+  - intent: provide_name
+  - action: utter_nice_to_meet
+
+- story: ask shipment time
+  steps:
+  - intent: shipping_time
+  - action: utter_shipment_time
+
+- story: Tell user the phone types sold
+  steps:
+  - intent: check_phones
+  - action: utter_phones_types
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
